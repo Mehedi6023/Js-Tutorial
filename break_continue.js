@@ -10,24 +10,22 @@ for (let i = 1; i <= 10; i++) {
 // while loop
 let j = 11;
 while (j <= 20) {
+  j++;
   if (j == 15) {
-    j++;
     continue;
     // break;
   } else {
     console.log("The number is : " + j);
-    j++;
   }
 }
 // do while loop
 let k = 21;
 do {
+  k++;
   if (k == 25) {
-    k++;
     continue;
     // break;
   } else {
     console.log("The number is :" + k);
-    k++;
   }
 } while (k <= 30);
