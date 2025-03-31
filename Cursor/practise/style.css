@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(20, 20, 20);
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trailer {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(214, 70, 70);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+body:hover > #trailer {
+  opacity: 1;
+}
+.container > img:hover{
+    width: 105%;
+    opacity: 0.8;
+}
